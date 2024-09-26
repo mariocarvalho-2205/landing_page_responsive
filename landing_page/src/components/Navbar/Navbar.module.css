@@ -5,6 +5,13 @@
     justify-content: space-between;
     border-bottom: 1px solid #484747d7;
     padding: 0 8px;
+    position: fixed; /* Fixa a barra no topo */
+    top: 0; /* Posiciona no topo da página */
+    left: 0;
+    width: 100%; /* Garante que a navbar ocupe toda a largura da página */
+    background-color: #333; /* Define uma cor de fundo sólida */
+    z-index: 1000; /* Garante que a navbar fique sobre outros elementos da página */
+    box-shadow: #333  0px 0px 6px; /* Adiciona um efeito de sombra*/
 }
 
 .logo_title {
