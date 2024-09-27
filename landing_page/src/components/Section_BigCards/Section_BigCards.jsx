@@ -5,6 +5,7 @@ import Card3 from '../../assets/card3.png'
 
 const Section_BigCards = () => {
     return (
+      <>
         <section className={styles.imageSection}>
         <div className={styles.imageWrapper}>
           <img src={Card1} alt="Imagem 1" className={styles.image}/>
@@ -30,6 +31,7 @@ const Section_BigCards = () => {
           </div>
         </div>
       </section>
+      </>
     )
 }
 
